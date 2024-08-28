@@ -27,30 +27,10 @@
   </head>
   <body>
     <!-- 
-   
-
-  
-  
-
-  
-  
-
-  Ready To Build Your Community?
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem.
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
-
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
 
   Subscribe -->
     <!-- HEADER -->
-    <header>
+    <header class="header">
       <!-- Navbar -->
       <nav class="navbar">
         <img
@@ -61,13 +41,15 @@
         <a class="navbar-button" href="#">Try It Free</a>
       </nav>
       <section class="hero-section">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>
-          Huddle re-imagines the way we build communities. You have a voice, but
-          so does your audience. Create connections with your users as you
-          engage in genuine discussion.
-        </p>
-        <a class="hero-section-button" href="#">Get Started For Free</a>
+        <div class="inside-hero-section-left-box">
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <a class="hero-section-button" href="#">Get Started For Free</a>
+        </div>
         <img
           class="hero-section-image"
           src="./images/screen-mockups.svg"
@@ -99,49 +81,159 @@
     </section>
     <!-- features -->
     <section class="features-section">
-      <img
-        class="first-feature-container-curve-top-image"
-        src="./images/bg-section-top-mobile-1.svg"
-        alt=""
-      />
       <div class="feature-container first-feature-container">
         <img
-          class="feature-container-image"
-          src="images/illustration-grow-together.svg"
-          alt="an images which shows a man and a women connecting through some kind of work which leads them to grow together"
+          class="curved-image first-feature-container-curve-top-image"
+          src="./images/bg-section-top-mobile-1.svg"
+          alt=""
         />
-        <h4>Grow Together</h4>
-        <p>
-          Generate meaningful discussions with your audience and build a strong,
-          loyal community. Think of the insightful conversations you miss out on
-          with a feedback form.
-        </p>
-      </div>
-      <div class="feature-container">
+        <div class="max-width-container-of-feature-section">
+          <img
+            class="feature-container-image first-feature-container-image"
+            src="images/illustration-grow-together.svg"
+            alt="an images which shows a man and a women connecting through some kind of work which leads them to grow together"
+          />
+          <div class="inside-first-feature-container">
+            <h4>Grow Together</h4>
+            <p>
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+        </div>
         <img
-          class="feature-container-image"
-          src="./images/illustration-flowing-conversation.svg"
-          alt="an images which shows a group of men and women sitting on table chair in an open space and kind of discussing or working on something"
+          class="curved-image first-feature-container-curve-bottom-image"
+          src="images/bg-section-bottom-mobile-1.svg"
+          alt=""
         />
-        <h4>Flowing Conversations</h4>
-        <p>
-          You wouldn't paginate a conversation in real life, so why do it
-          online? Our threads have just-in-time loading for a more natural flow.
-        </p>
       </div>
-      <div class="feature-container">
+      <div class="feature-container middle-feature-container">
+        <div class="max-width-container-of-feature-section">
+          <img
+            class="feature-container-image middle-feature-container-image"
+            src="./images/illustration-flowing-conversation.svg"
+            alt="an images which shows a group of men and women sitting on table chair in an open space and kind of discussing or working on something"
+          />
+          <div class="inside-middle-feature-section">
+            <h4>Flowing Conversations</h4>
+            <p>
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-container last-feature-container">
         <img
-          class="feature-container-image"
-          src="./images/illustration-your-users.svg"
-          alt="an images which shows men and women holding a white board and trying to show or display something"
+          class="curved-image last-feature-container-curve-top-image"
+          src="images/bg-section-top-mobile-2.svg"
+          alt=""
         />
-        <h4>Your Users</h4>
-        <p>
-          It takes no time at all to integrate Huddle with your app's
-          authentication solution. This means, once signed in to your app, your
-          users can start chatting immediately.
-        </p>
+        <div class="max-width-container-of-feature-section">
+          <img
+            class="feature-container-image last-feature-container-image"
+            src="./images/illustration-your-users.svg"
+            alt="an images which shows men and women holding a white board and trying to show or display something"
+          />
+          <div class="inside-last-feature-container">
+            <h4>Your Users</h4>
+            <p>
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+        </div>
+        <img
+          class="curved-image last-feature-container-curve-bottom-image"
+          src="images/bg-section-bottom-mobile-2.svg"
+          alt=""
+        />
       </div>
     </section>
+    <!-- above-footer-section -->
+    <section class="above-footer-section">
+      <div class="above-footer-section-container">
+        <h5>Ready To Build Your Community?</h5>
+        <a class="above-footer-section-button" href="#">Get Started For Free</a>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <img
+        class="curved-image-of-footer-top-section"
+        src="./images/bg-footer-top-mobile.svg"
+        alt="curved image of footer top section"
+      />
+      <div class="max-width-container-of-feature-section">
+        <div class="footer-newsletter-container">
+          <h6>NEWSLETTER</h6>
+          <p>
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address.
+          </p>
+          <form class="footer-newsletter-form">
+            <input
+              class="footer-newsletter-input"
+              placeholder="Email Address"
+              type="text"
+            />
+            <button class="footer-button" type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="main-footer-content">
+          <img
+            class="footer-logo"
+            src="./images/logo-white.svg"
+            alt="logo image with white color"
+          />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            dignissimos similique modi quod illo error est.
+          </p>
+          <div class="phone-and-email-div">
+            <div class="inside-phone-and-email-div">
+              <img
+                src="images/icon-phone.svg"
+                alt="little phone icon to denote phone number"
+              />
+              <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div class="inside-phone-and-email-div">
+              <img
+                src="images/icon-email.svg"
+                alt="little email icon to denote email address"
+              />
+              <p>example@company.com</p>
+            </div>
+          </div>
+          <div class="socials-links">
+            <a href="#">
+              <img
+                class="social-icon"
+                src="./images/icons8-facebook (1).svg"
+                alt="little facebook icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="social-icon"
+                src="./images/icons8-instagram (1).svg"
+                alt="little twitter icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="social-icon"
+                src="./images/icons8-twitter (1).svg"
+                alt="little instagram icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
